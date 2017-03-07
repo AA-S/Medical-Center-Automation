@@ -1,0 +1,79 @@
+/**{text-align: center;padding: 0;margin: 0;}
+
+*/
+body
+{
+	
+	background-color: #CBE8FF;
+	
+}
+
+.maindiv1
+{
+	margin-top: -16px;
+	width: 960px;
+	height: auto;
+	position: static;
+	
+}
+
+.searchdiv
+{
+	width:960px;
+	height:auto;
+	text-align:left;
+	background-color: red;
+	background-image: url("../images/doctor.jpg");
+	background-repeat: no-repeat;
+	margin-top: 0px;
+	padding-top: 120px;
+	padding-bottom: 5px;
+
+}
+
+.doctordiv
+{
+	height: auto;
+	width: 900px;
+	text-align: left;
+	margin-bottom: 10px;
+}
+
+
+.imagediv
+{
+	height:auto;
+	width: 380px;
+	text-align: left;
+	float: left;
+	margin: 10px;
+}
+
+.infodiv
+{
+	
+	height: auto;
+	width: 450px;
+	text-align: left;
+	margin: 10px;
+	padding-left: 10px;
+	float: left;
+}
+
+.imagediv img
+{
+	width: 380px;
+	height:254px;
+
+}
+
+.legend
+{
+	font: bold;font-weight: bolder;font-style: italic;color: white;
+}
+
+.information
+{
+	line-height: 30px;
+}
+

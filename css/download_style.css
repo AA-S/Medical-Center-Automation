@@ -1,0 +1,19 @@
+*{padding: 0;margin: 0;}
+
+div{overflow: hidden;}
+
+body
+{
+	background-color: #C56836;
+}
+
+
+
+
+.maindiv9
+{
+	overflow: hidden;
+	display: block;
+	width: 960px;height: auto;margin-top: 0px;
+	background-color: #FF99FF;
+}

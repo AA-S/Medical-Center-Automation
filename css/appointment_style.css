@@ -1,0 +1,82 @@
+*{padding: 0;margin: 0;}
+
+body
+{
+	
+	width: 100%;
+	background-color: #CC6600;
+	
+	/*background: url("../images/background13.jpg");
+    background-repeat:repeat;*/
+	background-size: 100% 100%;
+	
+}
+.maindiv
+{
+	overflow: visible;
+	width: 960px;
+	
+}
+
+.imagediv
+{
+	width: 960px;
+	height: 180px;
+	overflow: visible;
+	
+	
+	background: url("../images/Appointments_Landing.jpg");
+	background-repeat: no-repeat;
+	
+}
+
+.discissiondiv
+{
+	width: 310px;
+	height: 1491px;
+	background-color: #F1F1F1;
+	float:left;
+	margin-top: 5px;
+	margin-right: 10px;
+	padding: 20px;
+	text-align: left;
+}
+
+.formdiv
+{
+	overflow: visible;
+	width: 580px;
+	padding-left: 20px;
+	margin-top: 5px;
+	/*margin-right: 20px;*/
+	text-align: left;
+	float:left;
+	background-color: #F1F1F1;	
+	
+}
+
+#image
+{
+	padding: 20px;
+	color: white;
+	font-family: monospace;
+	font-size: 20px;
+	text-align: right;
+}
+
+#list
+{
+	margin-left: 20px;
+	padding-left: 20px;
+}
+
+.lab hover{background: red;}
+
+#name
+{
+	width: 150px;height: 30px;
+	padding-left: 7px;
+
+}
+
+

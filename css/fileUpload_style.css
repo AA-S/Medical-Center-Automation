@@ -1,0 +1,30 @@
+*{padding: 0;margin: 0;}
+
+body
+{
+	
+	width: 100%;
+	background-color: #CC6600;
+	
+	/*background: url("../images/background13.jpg");
+    background-repeat:repeat;*/
+	background-size: 100% 100%;
+	
+}
+
+.maindiv8
+{
+	width: 960px;
+	height: auto;;
+}
+
+.upload
+{
+	width: 960px;
+	height: auto;
+	text-align: left;
+	background-color: white;
+	padding: 50px;
+	padding-left: 300px;
+	/*margin-top: -50px;*/
+}

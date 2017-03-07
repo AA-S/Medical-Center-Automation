@@ -1,0 +1,98 @@
+*{padding: 0;margin: 0;}
+
+div{overflow: hidden;}
+.maindiv
+{
+	overflow: hidden;
+	display: block;
+	width: 960px;height: 190px;margin-top: 5px;
+}
+
+.header
+{
+	overflow: hidden;
+    width: 100%;height: 140px;
+    background-image: url("../images/header2.jpg");
+    background-repeat: repeat;
+    border-image: 20px;
+    background-color: red;
+  
+}
+
+
+.listdiv	{
+	height: 150px;
+	
+    padding: 0;
+	margin: 0;
+	position: absolute; /* Ensures that the menu doesn’t affect other elements */
+	
+	}
+	
+.listdiv li 	{
+			height: auto;
+			width: 118.15px;  /* Each menu item is 150px wide */
+			float: left;  /* This lines up the menu items horizontally */
+			text-align: center;  /* All text is placed in the center of the box */
+			list-style: none;  /* Removes the default styling (bullets) for the list */
+			font: normal bold 12px/1.2em Arial, Verdana, Helvetica;  
+			padding: 0;
+			margin: 0;
+			background-color: #560410;
+			border-right:2px solid #1E0606;
+             }
+             
+.listdiv a	{							
+		padding: 10px ;  /* Adds a padding on the top and bottom so the text appears centered vertically */
+		border-left: 1px solid #560410; 
+		border-right: 1px solid #560410; 
+		text-decoration: none;  /* Removes the default hyperlink styling. */
+		color: #9D8B59; /* Text color is white */
+		display: block;
+		}
+ 
+.listdiv li ul 	{
+		display: none;  /* Hides the drop-down menu */
+		height: auto;									
+		margin: 0; /* Aligns drop-down box underneath the menu item */
+		padding: 2px; /* Aligns drop-down box underneath the menu item */			
+		}				
+.listdiv li:hover ul {
+        display: block; /* Displays the drop-down box when the menu item is hovered over */
+  }
+.listdiv li ul li {background-color: #FDBF44;} 
+	
+.listdiv li ul li a:hover{background: red; background-color: #272822;
+}
+
+
+
+
+/*
+
+.listdiv
+{
+	overflow: hidden;
+	margin-top:1px;
+	font-family: century;
+    text-align: center;
+	font-size: 25px; 
+	width: 100%;
+	height: 51px;
+	background-color: #497FD3;
+	position: absolute;
+	
+}
+ul { display: inline-block; text-align: left; }
+
+.listdiv{margin: 0px;padding: 0;list-style: none;}
+.listdiv li{float: left;border-right: 1px solid #000;}
+.listdiv li a{display: block;padding: 10px;background: #497FD3;text-decoration: none;
+	color: black;border-radius: 30%;}
+.listdiv li a:hover{background: #FFF;}
+
+
+
+.listdiv li ul{display:none; block;margin: 0;padding: 0;height: auto; width: auto; }
+.listdiv li:hover ul{display: block;}
+*/
